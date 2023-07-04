@@ -35,14 +35,20 @@
 /* second page */
 .container-2 {
     padding: 0px 20px;
+    display: flex;
 }
-.container-2>img {
-    width: 250px;
+.main-div-2{
+    width: 500px;
+}
+.main-div-2 > img {
+    width: 70%;
+    height: 250px;
     margin: 20px 0;
     border-radius: 5px;
 }
-.container-2>p {
+.main-div-2 > p {
     font-size: 14px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 992px) {

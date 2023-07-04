@@ -1,7 +1,7 @@
 import { ADD_CARD_TO_DETAILS } from "../actions/actionTypes"
 
 const initialState = {
-    postData: {}
+    post: {}
 }
 
 const detailsReducer = (state = initialState, action) => {
@@ -9,7 +9,7 @@ const detailsReducer = (state = initialState, action) => {
         case ADD_CARD_TO_DETAILS:
             return {
                 ...state,
-                postData: action.payload
+                post: action.payload
             }
         default:
             return state

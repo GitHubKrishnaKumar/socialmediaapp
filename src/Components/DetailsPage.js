@@ -10,12 +10,14 @@ const DetailsPage = () => {
   
   return (
     <div className='container-2'>
-      <h2>Details Page For Post With ID {post.id}</h2>
-      <img src={`https://picsum.photos/200?random=${post.id}`} alt={post.title} />
-      <p>User ID: {post.userId}</p>
-      <p>Title: {post.title}</p>
-      <p>Body: {post.body}</p>
-  </div>
+      <div className='main-div-2'>
+        <h2>Details Page For Post With ID {post.id}</h2>
+        <img src={`https://picsum.photos/200?random=${post.id}`} alt={post.title} />
+        <p>User ID: {post.userId}</p>
+        <p>Title: {post.title}</p>
+        <p>Body: {post.body}</p>
+      </div>
+    </div>
   )
 }
 
